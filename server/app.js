@@ -42,9 +42,10 @@ router.get("/getData", (req,res) => {
 
 //update
 router.put("/:id", (req, res, next) => {
-    const { id, message } = req.body;
+    const body = req.body
+
     const data = {
-        message: message
+      message: body.message,
     }
 
     Data.findByIdAndUpdate(req.params.id, data, { new: true })

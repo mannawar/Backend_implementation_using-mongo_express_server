@@ -2,5 +2,5 @@ DELETE http://localhost:3001/api/deleteData
 Content-Type: application/json
 
 {
-    "id": 1
+    "id": "5f5b6323c733bc2d1841e781"
 }
