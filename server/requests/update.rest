@@ -1,0 +1,7 @@
+PUT http://localhost:3001/api/5f5b3373fcc8522cb026e16a
+Content-Type: application/json
+
+{
+    "id": 1,
+    "message": "test4"
+}

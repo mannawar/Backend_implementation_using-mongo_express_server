@@ -1,0 +1,7 @@
+POST http://localhost:3001/api/putData
+Content-Type: application/json
+
+{
+    "id": 2,
+    "message": "test2"
+}
